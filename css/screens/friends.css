@@ -1,0 +1,26 @@
+#friends-display-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 120px 20px 20px;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.option1 {
+  position: absolute;
+  top: 1px;
+  left: 5px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}

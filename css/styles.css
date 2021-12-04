@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+@import "components/status-bar.css";
+
+/* Components */
+@import "screens/login.css";
+@import "components/png2.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "screens/friends.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "screens/find.css";
+@import "components/icon-raw.css";
+@import "screens/more.css";
+@import "components/alt-screen-header.css";
+@import "components/settings.css";
+@import "screens/chat.css";
+
+body {
+  color: #2e363e;
+  font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+  box-sizing: border-box;
+}
+
+.main-screen {
+  padding-top: 110px;
+  padding-left: var(--horizontal-space);
+  padding-right: var(--horizontal-space);
+}
+
+.main-screen2 {
+  padding-top: 0px;
+  padding: 0 25px;
+}
+
+.chat-component {
+  padding-top: 130px;
+}

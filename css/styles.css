@@ -17,12 +17,13 @@
 @import "components/alt-screen-header.css";
 @import "components/settings.css";
 @import "screens/chat.css";
-
+@import "components/no-mobile.css";
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .main-screen {

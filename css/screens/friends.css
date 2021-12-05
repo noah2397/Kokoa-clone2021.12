@@ -24,3 +24,26 @@
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
+@keyframes hideSplashScreen {
+  from {
+    opcity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden; /* 요소가 사라지게 한다 */
+  }
+}
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw; /* 화면 넓이의 100%를 의미한다 */
+  height: 100vh; /* 화면 높이의 100%를 말한다 */
+  top: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 128px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 0.5s; /*애니메이션의 시작 시간을 지연시킬 수 있다*/
+}

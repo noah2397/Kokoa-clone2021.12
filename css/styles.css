@@ -23,7 +23,6 @@ body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .main-screen {
